@@ -1,18 +1,29 @@
 #include<iostream>
-#include<string>
 #include <stdio.h>
 using namespace std;
 int main(){
-int temp=0;
-string n;
-cout<<"Enter your number\n";
-cin>>n;
-int count = 0;
-    while (n != 0)
-    {
-        n = n / 10;
-        ++count;
+int tcase,num=0;
+cin>>tcase;
+for(int i=0;i<tcase/2;i++){
+    int temp;
+    cin>>temp;
+    while (temp>10){
+            temp/= 10;
+        }
+    num=(num*10)+temp;
     }
-cout<<num;
+    for(int i=tcase/2;i<tcase;i++){
+    int temp;
+    cin>>temp;
+
+    num=(num*10)+(temp%10);
+    }
+    if(num%11==0){
+        cout<<"OUI";
+    }
+    else{
+        cout<<"NON";
+    }
+
 return 0;
 }
