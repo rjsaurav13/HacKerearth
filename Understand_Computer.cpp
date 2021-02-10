@@ -10,7 +10,7 @@ int main() {
 	for(int i=0;i<tcase;i++){
         long long int num;
         cin>>num;
-        cout<<num-1<<"\n";
+        cout<<num^(num+1)<<"\n";
 
 	}
 
