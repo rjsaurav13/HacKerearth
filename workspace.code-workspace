@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\New folder\\Data_Structures\\lab"
+		},
+		{
+			"path": "..\\..\\New folder"
+		}
+	],
+	"settings": {
+		"c-cpp-compile-run.run-in-external-terminal": true
+	}
+}
