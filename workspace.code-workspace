@@ -20,12 +20,17 @@
 		},
 		{
 			"path": "D:\\GeeksForGeeks\\codeforces"
+		},
+		{
+			"path": "D:\\GeeksForGeeks\\codeforces\\Codeforces"
 		}
 	],
 	"settings": {
 		"c-cpp-compile-run.run-in-external-terminal": true,
 		"files.associations": {
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"sstream": "cpp",
+			"regex": "cpp"
 		}
 	}
 }
